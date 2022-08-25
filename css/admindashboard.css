@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;700&family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+    background-color: rgb(248, 241, 241);
+}
+footer{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: #4F0E0E;
+    
+   
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/* navbar */
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    
+    
+}
+
+/* .dashboard{
+    background-color: grey;
+    color: white;
+
+}
+.inventory{
+    background-color: darkgrey;
+    color: white;
+
+} */
+
+
+
+.logoutbtn {
+    background: none;
+    border: none;
+    color: lightslategray;
+    border-radius: 20px;
+    text-align: center;
+    width: 6.5em;
+    padding: 0.5em;
+
+  }
+
+  .logoutbtn:hover {
+    background-color: #4F0E0E;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    width: 6.5em;
+    padding: 0.5em;
+  }
+
+
+
+  #section2  .active2{
+      background-color: rgb(218, 210, 210);
+     
+  }
+  #section2 a{
+      color: black;
+      
+  }
+  #section2 a:hover{
+      background-color: darkgrey;
+  }
+  #section1 .disabled{
+      color: grey;
+  }
+

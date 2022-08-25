@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;700&family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+}
+footer{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: #4F0E0E;
+    
+   
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/* navbar */
+.nav{
+    font-family: 'Open Sans', sans-serif;
+}
+.logoutbtn {
+    background: none;
+    border: none;
+    color: lightslategray;
+    border-radius: 5px;
+    text-align: center;
+    width: 6.5em;
+    padding: 0.5em;
+
+  }
+
+  .logoutbtn:hover {
+    background-color: #4b1002;
+    border-radius: 5px;
+    text-align: center;
+    color: lightsteelblue;
+    width: 6.5em;
+    padding: 0.5em;
+  }
+
+
+  /* carousel */
+.carousel-item{
+    max-height: 65vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    background:#000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 2em;
+}
+.carousel-caption h4{
+    color: #c4c3c3;
+}
+.carousel-caption h5{
+    font-size: 5em;
+    font-weight: bolder;
+}
+.carousel-caption p{
+    font-size: 1.2em;
+    color: #c4c3c3;
+}
+
+.btn-outline-danger:hover{
+    background-color: #4F0E0E;
+    color: whitesmoke;
+    border:#4b1002;
+}
+
+
+
+#section2 i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(238, 228, 228);
+    cursor: pointer;
+}
+#section2 i:hover{
+    
+    color:rgb(192, 185, 185);
+}
+.feature1{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/features/feature1.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+}
+.feature2{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/features/feature2.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+}
+.feature3{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/features/feature3.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+}
+
+.owl-carousel .item .merch a{
+    overflow: hidden;
+}
+.owl-carousel .item .merch img{
+    transition: transform .5s ease;
+}
+.owl-carousel .item .merch img:hover{
+    transform: scale(.9);
+}
+
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+/* shop by category */
+.books{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/shop/slider/book1.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    transition:transform .5s ease;
+    box-shadow: 0 5px 10px black;
+    min-height: 30vh;
+    cursor: pointer;
+    
+    
+}
+.books:hover{
+    transform: scale(0.9);
+
+}
+.books a{
+    text-decoration: none;
+}
+
+
+.uniform{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/shop/slider/uniform.jpg");
+    background-position: 82% 18%;
+    background-size: cover;
+    border-radius: 5px;
+    transition:transform .5s ease;
+    box-shadow: 0 5px 10px black;
+    min-height: 30vh;
+    cursor: pointer;
+
+}
+.uniform:hover{
+    transform: scale(0.9);
+}
+.uniform a{
+    text-decoration: none;
+
+}
+
+
+/* section4 faqs */
+.accordion-button{
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url("../images/faq.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width:580px){
+    .carousel-caption{
+        bottom:5em;
+    }
+    .carousel-caption h5{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .carousel-caption p{
+        font-size: 1em;
+    }
+
+  
+
+}

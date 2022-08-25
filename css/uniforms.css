@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;700&family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+}
+footer{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: #4F0E0E;
+    
+   
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/* navbar */
+.nav{
+    font-family: 'Open Sans', sans-serif;
+}
+.logoutbtn {
+    background: none;
+    border: none;
+    color: lightslategray;
+    border-radius: 5px;
+    text-align: center;
+    width: 6.5em;
+    padding: 0.5em;
+
+  }
+
+  .logoutbtn:hover {
+    background-color: #4b1002;
+    border-radius: 5px;
+    text-align: center;
+    color: lightsteelblue;
+    width: 6.5em;
+    padding: 0.5em;
+  }
+
+
+   /* carousel */
+.carousel-item{
+    max-height: 65vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background: no-repeat scroll center scroll;
+    
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    background:#000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 2em;
+}
+.carousel-caption h4{
+    color: #c4c3c3;
+}
+.carousel-caption h5{
+    font-size: 5em;
+    font-weight: bolder;
+}
+.carousel-caption p{
+    font-size: 1.2em;
+    color: #c4c3c3;
+}
+
+.btn-outline-danger:hover{
+    background-color: #4F0E0E;
+    color: whitesmoke;
+    border:#4b1002;
+}
+
+
+
+
+
+
+
+@media (max-width:580px){
+    .carousel-caption{
+        bottom:5em;
+    }
+    .carousel-caption h5{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .carousel-caption p{
+        font-size: 1em;
+    }
+    #section2 grid-item{
+        align-items: center;
+    }
+}
+
+  

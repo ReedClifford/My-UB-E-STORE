@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;700&family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+}
+footer{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: #4F0E0E;
+    
+   
+}
+
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+/* navbar */
+.nav{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* carousel */
+.carousel-item{
+    max-height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background: no-repeat scroll center scroll;
+    
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    background:#000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 10em;
+}
+.carousel-caption h4{
+    color: #c4c3c3;
+}
+.carousel-caption h5{
+    font-size: 5em;
+    font-weight: bolder;
+}
+.carousel-caption p{
+    font-size: 1.2em;
+    color: #c4c3c3;
+}
+.slider-button{
+    margin-top: 2em;
+
+}
+.shopnowbtn{
+    min-width: 15em;
+    margin: 1.2em;
+    padding: 8px;
+    border-radius: 5px;
+    background: #6b1500;
+    border:3px #6b1500 solid;
+    color: goldenrod;
+    font-weight:500;
+    box-shadow: inset 0 0 0 0 #4b1002;
+    transition: ease-in 0.2s;
+    
+    
+    
+    
+}
+.shopnowbtn:hover{
+    box-shadow: inset 15em 0 0 0 #4b1002;
+    border:3px #4b1002 solid;
+
+}
+
+.aboutusbtn{
+    min-width: 15em;
+    margin: 1.2em;
+    padding: 8px;
+    border-radius: 5px;
+    background: none;
+    border:3px goldenrod solid;
+    color:goldenrod;
+    font-weight:500;
+    box-shadow: inset 0 0 0 0 #4b1002;
+    transition: ease-in 0.2s;
+
+
+}
+.aboutusbtn:hover{
+    box-shadow: inset 15em 0 0 0 #4b1002;
+    border:3px #4b1002 solid;
+    
+
+}
+
+
+/* section2 */
+#section2{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("../images/loginpage/header2.jpg");
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    padding: 2em;
+}
+
+#section2 h1{
+    color: whitesmoke;
+}
+#section2 p{
+    color: #c4c3c3;
+}
+
+/* section3 */
+#section3{
+    background: white;
+}
+.card-link{
+    color:black;
+}
+.card-link::hover{
+    color:#6b1500;
+}
+
+
+/* section4 */
+.vision{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/vision.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+    border-radius: 5px;
+}
+.vision h4{
+    color: whitesmoke;
+}
+.vision p{
+    color:#c4c3c3
+}
+
+.mission{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/mission.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+    border-radius: 5px;
+}
+.mission h4{
+    color: whitesmoke;
+}
+.mission p{
+    color:#c4c3c3
+}
+
+.philosophy{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/philo.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.philosophy h4{
+    color: whitesmoke;
+}
+.philosophy p{
+    color: #c4c3c3;
+}
+
+.objectives{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/objectives.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.objectives h4{
+    color: whitesmoke;
+}
+.objectives h5{
+    color: whitesmoke;
+}
+.objectives li{
+    color: #c4c3c3;
+}
+
+
+@media (max-width:580px){
+    .carousel-caption{
+        bottom:10em;
+    }
+    .carousel-caption h5{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .carousel-caption p{
+        font-size: 1em;
+    }
+
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;700&family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+}
+footer{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: #4F0E0E;
+    
+   
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/* navbar */
+.nav{
+    font-family: 'Open Sans', sans-serif;
+}
+.logoutbtn {
+    background: none;
+    border: none;
+    color: lightslategray;
+    border-radius: 5px;
+    text-align: center;
+    width: 6.5em;
+    padding: 0.5em;
+
+  }
